@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="k!:usooC1M@JwMPeILXm">décompte</variable></variables><block type="device_button_event" id="4)xlqO={p,h=6u1^XuTm" x="-56" y="-196"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Vxc-v,wNH^px]n:McS#m"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field><next><block type="device_pause" id="]2d:2bGHS6FpKs[qSnAw"><value name="pause"><shadow type="timePicker" id="o;Yu:]WI{Uoq3hqe^#~o"><field name="ms">12000</field></shadow></value><next><block type="device_show_leds" id="S.v$CWx1!Wh7TDS3T!8["><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # . . .
+        `</field><next><block type="device_pause" id="v6bc7WQV`CTE~J)}Sk.b"><value name="pause"><shadow type="timePicker" id="91f.~+Zfg]%Mk!,;T~;Q"><field name="ms">12000</field></shadow></value><next><block type="device_show_leds" id="yWb%73P6:r+GHjIY~Z)s"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # . .
+        `</field><next><block type="device_pause" id="`cXhlP@vEuI@mb10r%p#"><value name="pause"><shadow type="timePicker" id="Qhe.HSrsv7y2{N}gr6tX"><field name="ms">12000</field></shadow></value><next><block type="device_show_leds" id="Ykbv=q[lBjNQozwX=6|L"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # .
+        `</field><next><block type="device_pause" id="Jh{UfPUO%gYtiKwwdgM#"><value name="pause"><shadow type="timePicker" id="9)W$G!o1FppV9Dp[gY@1"><field name="ms">12000</field></shadow></value><next><block type="device_show_leds" id="r$S}J.|]r+OT|x0%hR3q"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_pause" id="slAoTA^s,U!VV$tOUAyn"><value name="pause"><shadow type="timePicker" id="C;{yO.4Z?*uw%o1ERn@Q"><field name="ms">12000</field></shadow></value><next><block type="music_playable_play" id="8MYjf6E|=hfs@eJfR`pd"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="MYmE1tgu8lZfvbn_JoZF"><value name="melody"><shadow type="melody_editor" id="f::!+$si@w|LX@JOR,,k"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="kqGWxkmmW!6S$_,={U|o"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="Ys6*wZsRKy6@KFH2~)A-" x="428" y="-160"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="control_reset" id="yz+B.^IJw/fBI][kM,Oa"></block></statement></block><block type="device_forever" id="~gA:_gs3Ik%!D]S*KrO}" x="0" y="0"></block><block type="pxt-on-start" id="7ch/O8u7dD}=MTmvJsw6" x="438" y="71"><statement name="HANDLER"><block type="device_show_leds" id="C+w@8?V6z5w,Qoxe5GPi"><field name="LEDS">`
+        . . # . # 
+        . # # . # 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></xml>
